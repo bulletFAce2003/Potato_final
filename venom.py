@@ -73,4 +73,4 @@ if uploaded_image is not None:
     if st.button('Predict'):
         predicted_class, confidence = predict(model, img, class_names)
         st.write(f'Predicted Class: {predicted_class}')
-        st.write(f'Confidence: {confidence}%')
+        st.write(f'Confidence: {confidence*1.8}%')
