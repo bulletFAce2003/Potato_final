@@ -1,7 +1,7 @@
 numpy
 matplotlib
+pillow
 tensorflow
-PILLOW
 streamlit
 Keras
 warnings 
