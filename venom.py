@@ -6,7 +6,7 @@ from tensorflow import keras
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model(r'C:\Users\nitis\OneDrive\Desktop\fdsjkf\model1.h5')
+model = load_model(r'model1.h5')
 # model.compile(optimizer=keras.optimizers.Adam(learning_rate=1e-3),
 #               loss='sparse_categorical_crossentropy',
 #               metrics=['accuracy'])
